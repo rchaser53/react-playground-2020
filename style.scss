@@ -1,4 +1,26 @@
-$font-size: 50px;
-.example {
-  font-size: $font-size;
+.outline {
+  width: 300px;
+  border: solid 1px #aaa;
 }
+
+
+.parentArea {
+  line-height: 2;
+
+  button {
+    margin-right: 3px;
+  }
+}
+
+.childrenArea {
+  display: flex;
+
+  .child {
+    width: auto;
+    border: solid 3px #eee;
+    background-color: green;
+    color: white;
+    padding: 3px;
+  }
+}
+
